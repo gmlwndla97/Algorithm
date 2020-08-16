@@ -23,6 +23,11 @@ Algorithm PS with python
 ##### 2. 인덱스 반환하기 : ```str.find('a')```
 ##### 3. 문자열 자르기 :```str[0:원하는 곳]```
 ##### 4. 문자열 뒤집기 : ```str[::-1]```
-##### 5. 알파벳 리스트 만들기 : ```from string import ascii_lowercase``` 이후 ```list(ascii_lowercase)```
+##### 5. 공백 지우기 : ```str.strip()``` 
++(rstrip, lstrip)
+##### 6. 알파벳 리스트 만들기 : ```from string import ascii_lowercase``` 이후 ```list(ascii_lowercase)```
++(ascii_lowercase)
+
+
 --------------
 📍 **자료구조**
