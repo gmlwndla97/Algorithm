@@ -37,8 +37,12 @@ Algorithm PS with python
 
 ##### 1. 1차원 배열 생성하기 :
 1Xn 크기의 배열을 만든다고 하면
-```arr=[0 for _ in range (n)]``` 또는 ```arr=[0]*n
+
+
+```arr=[0 for _ in range (n)]``` 또는 ```arr=[0]*n```
 
 ##### 2. 2차원 배열 생성하기 : 
 m*n 크기의 배열을 만든다고 하면 (m행 n열)
+
+
 ```arr=[0 * m for _ in range(n)]```
