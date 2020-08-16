@@ -1,2 +1,4 @@
-# Algorithm
+Algorithm
+=============
 Algorithm PS with python 
+-------------
