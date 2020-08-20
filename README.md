@@ -20,6 +20,9 @@ Algorithm PS with python
 >> ```arr=[list(map(int, sys.stdin.readline().rstrip().split())) for _ in range(n)]```
 >>  + split만 추가해주면 됨
 
+>##### 4. 1차원 배열 떨어져서 입력 받을 때 : 
+>> ```arr=list(map(int, sys.stdin.readline().rstrip().split()))```
+
 ---------------
 
 📍 **문자열 관련 함수**
