@@ -9,6 +9,7 @@ Algorithm PS with python
 
 > ##### 1. 한 줄에 띄어쓰기 된 여러 값 입력 받을 때 : 
  >>```map(int, sys.stdin.readline().rstrip().split())```
+  >>+ 기본적으로 str 형태로 들어감 
  >>+ 여러 값일 때 map을 통해서 전체 다 int로 변환가능
 
 > ##### 2. 2차원 배열 붙어서 입력 받을 때:
