@@ -21,7 +21,7 @@ def dfs(x, y, cnt):
 dx=[-1, 1, 0, 0]
 dy=[0, 0, -1, 1]
 n=int(input())
-arr=[list(map(int, input())) for _ in range(n)]
+arr=[list(map(int, sys.stdin.readline().rstrip())) for _ in range(n)]
 visit=[[0]*(n+1) for _ in range(n+1)]
 cntarr=[0]*(n*n)
 
