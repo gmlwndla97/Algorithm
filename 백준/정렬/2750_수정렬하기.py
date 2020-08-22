@@ -1,5 +1,5 @@
 import sys
-#############백준 시간초과 해결안됨
+
 n = int(input())
 list = []
 min = 987654321
