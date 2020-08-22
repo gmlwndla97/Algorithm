@@ -1,5 +1,5 @@
 import sys
-
+#############백준 시간초과 해결안됨
 def merge(left, right):
     result = []
     while len(left) > 0 or len(right) > 0:
