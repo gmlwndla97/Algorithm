@@ -9,20 +9,20 @@ Algorithm PS with python
 
 - 한 줄에 띄어쓰기 된 여러 값 입력 받을 때 : 
   - ```map(int, sys.stdin.readline().rstrip().split())```
-  - + 기본적으로 str 형태로 들어감 
-  - + 여러 값일 때 map을 통해서 전체 다 int로 변환가능
+  -  기본적으로 str 형태로 들어감 
+  -  여러 값일 때 map을 통해서 전체 다 int로 변환가능
   
-2. 2차원 배열 붙어서 입력 받을 때:
-> ```arr=[list(map(int, sys.stdin.readline().rstrip())) for _ in range(n)]```
->  + list로 감싸면 알아서 한 글자씩 list 한 칸에 들어감
->  + 그걸 행 만큼 반복해주면 2차월배열 생성
+- 2차원 배열 붙어서 입력 받을 때:
+  - ```arr=[list(map(int, sys.stdin.readline().rstrip())) for _ in range(n)]```
+  - list로 감싸면 알아서 한 글자씩 list 한 칸에 들어감
+  - 그걸 행 만큼 반복해주면 2차월배열 생성
 
-3. 2차원 배열 떨어져서 입력 받을 때:
-> ```arr=[list(map(int, sys.stdin.readline().rstrip().split())) for _ in range(n)]```
->  + split만 추가해주면 됨
+- 2차원 배열 떨어져서 입력 받을 때:
+  - ```arr=[list(map(int, sys.stdin.readline().rstrip().split())) for _ in range(n)]```
+  - split만 추가해주면 됨
 
-4. 1차원 배열 떨어져서 입력 받을 때 : 
-> ```arr=list(map(int, sys.stdin.readline().rstrip().split()))```
+- 1차원 배열 떨어져서 입력 받을 때 : 
+  - ```arr=list(map(int, sys.stdin.readline().rstrip().split()))```
 
 ---------------
 
@@ -43,16 +43,16 @@ Algorithm PS with python
 --------------
 📍 **자료구조**
 
- 1. 1차원 배열 생성하기 :  1Xn 크기의 배열을 만든다고 하면
+- 1차원 배열 생성하기 :  1Xn 크기의 배열을 만든다고 하면
 
-> ```arr=[0 for _ in range (n)]``` 또는 ```arr=[0]*n```
+  - ```arr=[0 for _ in range (n)]``` 또는 ```arr=[0]*n```
 
- 2. 2차원 배열 생성하기 :  m*n 크기의 배열을 만든다고 하면 (m행 n열)
+- 2차원 배열 생성하기 :  m*n 크기의 배열을 만든다고 하면 (m행 n열)
 
->```arr=[0 * m for _ in range(n)]```
+  - ```arr=[0 * m for _ in range(n)]```
 
-3. 리스트 정렬하기 :
-> + 정렬된 리스트로 바꾸고 싶은 경우 : ```list.sort()```
-> + 원본 리스트는 그대로 두고, 정렬된 리스트 새로 만들고 싶은 경우 : ```sorted(list)```
+- 리스트 정렬하기 :
+  - 정렬된 리스트로 바꾸고 싶은 경우 : ```list.sort()```
+  - 원본 리스트는 그대로 두고, 정렬된 리스트 새로 만들고 싶은 경우 : ```sorted(list)```
 
 
