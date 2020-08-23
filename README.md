@@ -8,20 +8,22 @@ Algorithm PS with python
 📍 **입력받기**
 
  1. 한 줄에 띄어쓰기 된 여러 값 입력 받을 때 : 
- >>```map(int, sys.stdin.readline().rstrip().split())```
-  >>+ 기본적으로 str 형태로 들어감 
- >>+ 여러 값일 때 map을 통해서 전체 다 int로 변환가능
+ 
+  >```map(int, sys.stdin.readline().rstrip().split())```
+  >+ 기본적으로 str 형태로 들어감 
+  >+ 여러 값일 때 map을 통해서 전체 다 int로 변환가능
+  
 2. 2차원 배열 붙어서 입력 받을 때:
->> ```arr=[list(map(int, sys.stdin.readline().rstrip())) for _ in range(n)]```
->>  + list로 감싸면 알아서 한 글자씩 list 한 칸에 들어감
->>  + 그걸 행 만큼 반복해주면 2차월배열 생성
+> ```arr=[list(map(int, sys.stdin.readline().rstrip())) for _ in range(n)]```
+>  + list로 감싸면 알아서 한 글자씩 list 한 칸에 들어감
+>  + 그걸 행 만큼 반복해주면 2차월배열 생성
 
 3. 2차원 배열 떨어져서 입력 받을 때:
->> ```arr=[list(map(int, sys.stdin.readline().rstrip().split())) for _ in range(n)]```
->>  + split만 추가해주면 됨
+> ```arr=[list(map(int, sys.stdin.readline().rstrip().split())) for _ in range(n)]```
+>  + split만 추가해주면 됨
 
 4. 1차원 배열 떨어져서 입력 받을 때 : 
->> ```arr=list(map(int, sys.stdin.readline().rstrip().split()))```
+> ```arr=list(map(int, sys.stdin.readline().rstrip().split()))```
 
 ---------------
 
