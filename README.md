@@ -61,9 +61,9 @@ Algorithm PS with python
 2. 우선순위 큐
 - 우선순위 큐 생성하기 : 
   - ```
-  h=[] 
-  heapq.heappush(h, (우선순위, 값))
-  ```
+      h=[] 
+      heapq.heappush(h, (우선순위, 값))
+    ```
 
 - 원소 꺼내기 : top에 있는 우선순위가 가장 높은 원소가 나온다 
   - ```heapq.heappop(h)``` 
