@@ -44,6 +44,7 @@ Algorithm PS with python
 --------------
 📍 **자료구조**
 
+1. 리스트
 - 1차원 배열 생성하기 :  1Xn 크기의 배열을 만든다고 하면
 
   - ```arr=[0 for _ in range (n)]``` 또는 ```arr=[0]*n```
@@ -56,4 +57,14 @@ Algorithm PS with python
   - 정렬된 리스트로 바꾸고 싶은 경우 : ```list.sort()```
   - 원본 리스트는 그대로 두고, 정렬된 리스트 새로 만들고 싶은 경우 : ```sorted(list)```
 
+
+2. 우선순위 큐
+- 우선순위 큐 생성하기 : 
+  - ```
+  h=[] 
+  heapq.heappush(h, (우선순위, 값))
+  ```
+
+- 원소 꺼내기 : top에 있는 우선순위가 가장 높은 원소가 나온다 
+  - ```heapq.heappop(h)``` 
 
