@@ -55,7 +55,7 @@ Algorithm PS with python
 
 - 리스트 정렬하기 :
   - 정렬된 리스트로 바꾸고 싶은 경우 : ```list.sort()```
-  - 원본 리스트는 그대로 두고, 정렬된 리스트 새로 만들고 싶은 경우 : ```sorted(list)```
+  - 원본 리스트는 그대로 두고, 정렬된 리스트 새로 만들고 싶은 경우 : ```sorted(list)```  
 
 
 
@@ -68,13 +68,9 @@ Algorithm PS with python
         h=[] 
         heapq.heappush(h, 우선순위)
         ```
-
     - 원소 꺼내기 : top에 있는 우선순위가 가장 높은 원소가 나온다 
-      - ```heapq.heappop(h)```   
-         
-    
+      - ```heapq.heappop(h)```
   1. priority queue
-
     - 생성하기 :
       - ```
         from queue import PriorityQueue
