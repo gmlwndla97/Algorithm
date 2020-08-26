@@ -73,7 +73,7 @@ Algorithm PS with python
   - 원소 꺼내기 : top에 있는 우선순위가 가장 높은 원소가 나온다 
     - ```heapq.heappop(h)``` 
  
- 
+ ---------
 - priority queue
 
   - 생성하기 :
