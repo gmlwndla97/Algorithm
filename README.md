@@ -68,7 +68,7 @@ Algorithm PS with python
       
       h=[] 
       heapq.heappush(h, 우선순위)
-    ```
+      ```
 
   - 원소 꺼내기 : top에 있는 우선순위가 가장 높은 원소가 나온다 
     - ```heapq.heappop(h)``` 
@@ -83,8 +83,6 @@ Algorithm PS with python
       q=PriorityQueue()
       ```
     
-  - 원소 추가하기 :
-    - ``` q.put(값)```
-  - 원소 꺼내기 : 
-    - ``` q.get() ```
+  - 원소 추가하기 : ``` q.put(값)```
+  - 원소 꺼내기 :  ``` q.get() ```
 
