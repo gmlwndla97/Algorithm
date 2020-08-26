@@ -45,7 +45,7 @@ Algorithm PS with python
 📍 **자료구조**
 
 1. 리스트
-- 1차원 배열 생성하기 :  1Xn 크기의 배열을 만든다고 하면
+>- 1차원 배열 생성하기 :  1Xn 크기의 배열을 만든다고 하면
 
   - ```arr=[0 for _ in range (n)]``` 또는 ```arr=[0]*n```
 
@@ -62,7 +62,7 @@ Algorithm PS with python
 
 2-1) heapq
 
-- 생성하기, 원소 추가하기 : 
+>- 생성하기, 원소 추가하기 : 
   - ```
       import heapq
       
@@ -76,7 +76,7 @@ Algorithm PS with python
  
 2-2) priority queue
 
-- 생성하기 :
+>- 생성하기 :
   - ```
       from queue import PriorityQueue
       
