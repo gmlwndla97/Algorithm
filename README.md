@@ -59,10 +59,8 @@ Algorithm PS with python
 
 
 
-2. 우선순위 큐
-
-  -  heapq
-
+1. 우선순위 큐
+  1. heapq
     - 생성하기, 원소 추가하기 : 
       - ```
         import heapq
@@ -72,9 +70,10 @@ Algorithm PS with python
         ```
 
     - 원소 꺼내기 : top에 있는 우선순위가 가장 높은 원소가 나온다 
-      - ```heapq.heappop(h)``` 
+      - ```heapq.heappop(h)```   
+         
     
-  - priority queue
+  1. priority queue
 
     - 생성하기 :
       - ```
