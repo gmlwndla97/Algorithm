@@ -1,71 +1,58 @@
-#####백준 시간초과 해결못함
-# ### 코드만 맞음
-#
-#
+#####백준 시간초과 해결한 코드
 import sys
+from collections import  deque
+q=deque()
+cnt=0
+
+
 arr=[list(map(int, sys.stdin.readline().rstrip().split())) for _ in range(9)]
+
 # 정답을 찾을때까지
 # 모든 경우의 수를 전진하면서, 스도쿠 유효성을 어기지 않는지 탐색
 # 더이상 나아갈 길이 없으면
 # 한칸 뒤로 후퇴
 
-def backtrack(index):
-    #index=81까지 도달한거면 마지막까지 잘 도착한것이므로 true
-    if index==81:
-        for i in range(0,9):
-            for j in range(0, 9):
-                print(arr[i][j], end=' ')
+def backtrack(num):
+    if num==cnt:
+        for i in range(0, 9):
+            for j in range(0,9):
+                print(arr[i][j],end=' ')
             print()
         return True
-    row=index//9
-    col=index%9
-    now=arr[row][col]
 
-    if(now!=0): #숫자가 있다면 다음칸으로
-        return backtrack(index+1)
     else:
-        for i in range(1, 10): #1~9까지 숫자 돌아가면서 채움
+        row,col=q[num]
+        for i in range(1,10):
             arr[row][col]=i
-            if isValidSudoku()==True:
-                isRight=backtrack(index+1) #여기서 정답이라면 정답 리턴
-                if isRight==True:
-                    return isRight
-
+            if(isValidSudoku(row,col)):
+                b=backtrack(num+1)
+                if(b): return b
         arr[row][col]=0
         return False
 
 
+def isValidSudoku(row, col):
+    ##시간 줄인 다른 검사 방식.
 
+    for i in range(0, 9):
+        if(arr[row][col]==arr[row][i] and i!=col):
+            return False
+        if(arr[row][col]==arr[i][col] and i!=row):
+            return False
 
-def isValidSudoku():
-    visit=[0]*10
-    #가로, 세로, 3x3칸검증 세가지를 하겠다
-    for i in range(0, 4):
-        #한줄의 규칙
-        for j in range(0,9):
-            visit = [0] * 10
-            for k in range(0,9):
-                cur=0
-                if (i==0): #가로줄 검증
-                    cur=int(arr[j][k])
-                elif(i==1): #세로줄 검증
-                    cur = int(arr[k][j])
-                else: #섭그리드 검증
-                    #j는 몇번째 섭그리드인지
-                    #k는 그 안에서 몇번쨰 칸인지
-                    cur=arr[j//3*3+k//3][j%3*3+k%3]
-                if cur == 0: continue
-                val = int(cur)
-                if (visit[val - 1] == 1): return False
-                visit[val - 1] = 1
+    for i in range(3*(row//3), 3*(row//3)+3):
+        for j in range(3*(col//3), 3*(col//3)+3):
+            if(arr[row][col]==arr[i][j]):
+                if (row!=i and col!=j):
+                    return False
 
     return True
 
 
-
-
-
-def solveSudoku():
-    backtrack(0)
-
-solveSudoku()
+for i in range(0, 9):
+    for j in range(0, 9):
+        if arr[i][j]==0:
+            q.append((i,j));
+            cnt+=1
+num=0
+backtrack(0)
