@@ -86,5 +86,5 @@ Algorithm PS with python
 
 🎲 딕셔너리
   - 딕셔너리 value 값 기준으로 정렬하기 :
-     - ```sorted(map.items(), key=lambda x:x[1], reverse=True)
+     - ```sorted(map.items(), key=lambda x:x[1], reverse=True)```
       
