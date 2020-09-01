@@ -83,3 +83,8 @@ Algorithm PS with python
     - 원소 추가하기 : ``` q.put(값)```
     - 원소 꺼내기 :  ``` q.get() ```
 
+
+🎲 딕셔너리
+  - 딕셔너리 value 값 기준으로 정렬하기 :
+     - ```sorted(map.items(), key=lambda x:x[1], reverse=True)
+      
