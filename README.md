@@ -57,7 +57,7 @@ Algorithm PS with python
   - 정렬된 리스트로 바꾸고 싶은 경우 : ```list.sort()```
   - 원본 리스트는 그대로 두고, 정렬된 리스트 새로 만들고 싶은 경우 : ```sorted(list)```  
 
-
+<br/><br/>
 
 🎲 우선순위 큐
   - heapq
@@ -82,7 +82,7 @@ Algorithm PS with python
 
     - 원소 추가하기 : ``` q.put(값)```
     - 원소 꺼내기 :  ``` q.get() ```  
-
+<br/><br/>
 
 🎲 딕셔너리
   - 딕셔너리 value 값 기준으로 정렬하기 :
