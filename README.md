@@ -81,7 +81,7 @@ Algorithm PS with python
         ```
 
     - 원소 추가하기 : ``` q.put(값)```
-    - 원소 꺼내기 :  ``` q.get() ```
+    - 원소 꺼내기 :  ``` q.get() ```  
 
 
 🎲 딕셔너리
