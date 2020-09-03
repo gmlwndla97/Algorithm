@@ -86,5 +86,8 @@ Algorithm PS with python
 
 🎲 딕셔너리
   - 딕셔너리 value 값 기준으로 정렬하기 :
-     - ```sorted(map.items(), key=lambda x:x[1], reverse=True)```
+     - ```sorted(map.items(), key=lambda x:x[1], reverse=True)```  
+     
+  - key와 value 순서 바꾼 dictionary 생성하기 :
+     - ```dic={v:k for k, v in dic.items()}```
       
