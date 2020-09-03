@@ -60,12 +60,11 @@ Algorithm PS with python
   
 </details>
 
-
-
-
 <br/><br/>
 
-🎲 우선순위 큐
+<details>
+    <summary>🎲 우선순위 큐</summary>
+
   - heapq
     - 생성하기, 원소 추가하기 :  
       - ```
@@ -88,12 +87,22 @@ Algorithm PS with python
 
     - 원소 추가하기 : ``` q.put(값)```
     - 원소 꺼내기 :  ``` q.get() ```  
+
+</details>
+
 <br/><br/>
 
-🎲 딕셔너리
+<details>
+    <summary>🎲 딕셔너리</summary>
+
   - 딕셔너리 value 값 기준으로 정렬하기 :
      - ```sorted(map.items(), key=lambda x:x[1], reverse=True)```  
      
   - key와 value 순서 바꾼 dictionary 생성하기 :
      - ```dic={v:k for k, v in dic.items()}```
+
+</details>
+
+
+
       
