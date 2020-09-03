@@ -100,6 +100,16 @@ Algorithm PS with python
      
   - key와 value 순서 바꾼 dictionary 생성하기 :
      - ```dic={v:k for k, v in dic.items()}```
+     
+  - value값으로 key찾기 : (v는 value, k는 key를 의미)
+     - ```
+        for k, v in dic.items():
+           if v==원하는 값:
+              print(k)
+        ```
+     - ```
+         [k for k, v in dic.items() if v==원하는 값]
+        ```
 
 </details>
 
