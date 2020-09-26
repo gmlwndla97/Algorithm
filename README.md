@@ -42,7 +42,7 @@ Algorithm PS with python
 12. 해당 단어로 시작하는지 확인하기 (prefix) : ```str.startswith(str2)```
  
 --------------
-📍 **자료구조**
+📍 **자료구조 및 내장함수**
 <details>
     <summary>🎲 리스트</summary>
 
@@ -116,7 +116,29 @@ Algorithm PS with python
         ```
 
 </details>
+<br/><br/>
 
 
-
-      
+<details>
+    <summary>🎲 순열과 조합 permutation&combination </summary>
+  
+  - 순열: n개 중 r개 고름 ( 순서 상관 있음 ) : 
+  ```
+    import itertools
+    arr=[1, 2, 3]
+    permu=itertools.permutations(arr, 2)
+    print(list(permu))
+     ```
+     
+  - 조합 : n개 중 r개 고름 ( 순서 상관 없음 ) :
+  ```
+    import itertools
+    arr=[1, 2, 3]
+    combi=itertools.combinations(arr,2)
+    print(list(comb))
+   ```
+   
+     
+   
+ 
+ </details>
