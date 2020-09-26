@@ -128,7 +128,7 @@ Algorithm PS with python
     arr=[1, 2, 3]
     permu=itertools.permutations(arr, 2)
     print(list(permu))
-     ```
+  ```
      
   - 조합 : n개 중 r개 고름 ( 순서 상관 없음 ) :
   ```
@@ -136,7 +136,7 @@ Algorithm PS with python
     arr=[1, 2, 3]
     combi=itertools.combinations(arr,2)
     print(list(comb))
-   ```
+  ```
    
      
    
