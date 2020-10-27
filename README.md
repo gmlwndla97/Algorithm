@@ -60,6 +60,13 @@ Algorithm PS with python
   - 인자가 여러개일 때 먼저 첫 번째 인자 기준으로 정렬하고, 그 다음 두 번째 인자 기준으로 정렬하고 싶은 경우 :
     ``` newList=sorted(list, key=lambda x :(x[0], x[1])) ```
     (내림차순으로 정렬하고 싶으면 -를 붙여준다.)
+    
+     
+     
+- 중복 요소 제거하기:
+  - ``` newlist=list(set(mylist))    ```
+      
+ 
   
 </details>
 

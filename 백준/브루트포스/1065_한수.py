@@ -1,5 +1,4 @@
 import sys
-
 input=int(sys.stdin.readline().rstrip())
 answer=0
 for i in range(1, input+1):
