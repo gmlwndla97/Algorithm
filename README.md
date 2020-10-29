@@ -44,6 +44,16 @@ Algorithm PS with python
 --------------
 📍 **자료구조 및 내장함수**
 <details>
+   <summary>🎲 deque(큐) </summary>
+- ```
+  from collections import deque
+  q=deque()
+ ```
+  
+- push, pop : ```q.append(i) , q.popleft() ```
+  - 파이썬 deque에는 push가 없고 append로 추가하고 pop대신에 popleft를 사용한다.
+   
+  
     <summary>🎲 리스트</summary>
 
 - 1차원 배열 생성하기 :  1Xn 크기의 배열을 만든다고 하면
@@ -121,6 +131,14 @@ Algorithm PS with python
      - ```
          [k for k, v in dic.items() if v==원하는 값]
         ```
+  - 리스트를 딕셔너리로 바꾸기 :
+    -```
+      list=['A','B','C']
+      
+      dic={string : 0 for string in list}
+     ```
+    이렇게 하면 {'A':0, 'B':0, 'C':0} 가 만들어진다.
+
 
 </details>
 <br/><br/>
