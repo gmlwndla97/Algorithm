@@ -142,8 +142,7 @@ Algorithm PS with python
       list=['A','B','C']
       
       dic={string : 0 for string in list}
-     ```  
-     
+      ```  
     이렇게 하면 {'A':0, 'B':0, 'C':0} 가 만들어진다.
 
 
