@@ -32,4 +32,3 @@ else:
                 visit[w] = 1
                 q.append((w, cnt + 1))
 
-
