@@ -53,9 +53,14 @@ Algorithm PS with python
   ```
   
 - push, pop : ```q.append(i) , q.popleft() ```
-  - 파이썬 deque에는 push가 없고 append로 추가하고 pop대신에 popleft를 사용한다.  
+  - 파이썬 deque에는 push가 없는 대신 append로 추가하고, pop대신에 popleft로 한다.  
    
-  
+ </details>
+
+<br/><br/>
+
+
+<details> 
   <summary>🎲 리스트</summary>
 
 - 1차원 배열 생성하기 :  1Xn 크기의 배열을 만든다고 하면
@@ -130,10 +135,7 @@ Algorithm PS with python
            if v==원하는 값:
               print(k)
         ```
-     - 
-      ```
-         [k for k, v in dic.items() if v==원하는 값]
-        ```  
+     - ``` [k for k, v in dic.items() if v==원하는 값] ```  
         
   - 리스트를 딕셔너리로 바꾸기 :
     -
