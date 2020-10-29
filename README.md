@@ -137,9 +137,8 @@ Algorithm PS with python
         ```
      - ``` [k for k, v in dic.items() if v==원하는 값] ```  
         
-  - 리스트를 딕셔너리로 바꾸기 :
-    -
-      ```
+  - 리스트를 딕셔너리로  :
+    - ```
       list=['A','B','C']
       
       dic={string : 0 for string in list}
