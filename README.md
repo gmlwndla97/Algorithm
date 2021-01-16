@@ -84,6 +84,17 @@ Algorithm PS with python
   - ``` newlist=list(set(mylist))    ```
       
  
+- 리스트 요소 끄집어내기 :
+  -
+    ```
+    a=[1,2,3]
+    a.pop(2) ##3이 리턴되고, 삭제됨
+    ##a=[1,2]
+    ```
+  
+  
+   
+ 
   
 </details>
 
