@@ -82,8 +82,7 @@ Algorithm PS with python
      
 - 중복 요소 제거하기:
   - ``` newlist=list(set(mylist))    ```
-      
- 
+
 - 리스트 요소 끄집어내기 :
   -
     ```
