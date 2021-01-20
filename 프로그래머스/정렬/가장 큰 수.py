@@ -2,8 +2,8 @@ from collections import  deque
 
 q=deque()
 
-#numbers=[6, 10, 2]
-numbers=[3, 30, 34, 5, 9]
+numbers=[6, 10, 2]
+#numbers=[3, 30, 34, 5, 9]
 temp=list(map(str, numbers))
 maxlen=0
 
