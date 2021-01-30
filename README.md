@@ -67,9 +67,9 @@ Algorithm PS with python
 
   - ```arr=[0 for _ in range (n)]``` 또는 ```arr=[0]*n```
 
-- 2차원 배열 생성하기 :  m*n 크기의 배열을 만든다고 하면 (m행 n열)
+- 2차원 배열 생성하기 :  n*m 크기의 배열을 만든다고 하면 (n행 m열)
 
-  - ```arr=[0 * m for _ in range(n)]```
+  - ```arr=[[0] * m for _ in range(n)]```
 
 - 리스트 정렬하기 :
   - 정렬된 리스트로 바꾸고 싶은 경우 : ```list.sort()```
@@ -165,17 +165,17 @@ Algorithm PS with python
   
   - 순열: n개 중 r개 고름 ( 순서 상관 있음 ) : 
   ```
-    import itertools
+    from itertools import permutations
     arr=[1, 2, 3]
-    permu=itertools.permutations(arr, 2)
+    permu=permutations(arr, 2)
     print(list(permu))
   ```
      
   - 조합 : n개 중 r개 고름 ( 순서 상관 없음 ) :
   ```
-    import itertools
+    from itertools import combinations
     arr=[1, 2, 3]
-    combi=itertools.combinations(arr,2)
+    comb=combinations(arr,2)
     print(list(comb))
   ```
    
