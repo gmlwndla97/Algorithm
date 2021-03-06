@@ -20,9 +20,9 @@ while(True):
 
     else:
         if(high == n-1): break
-        if(high<n-1):
-            high+=1
-            sum+=arr[high]
+        #if(high<n-1):
+        high+=1
+        sum+=arr[high]
 
 if(minlen==987654321):
     print(0)
