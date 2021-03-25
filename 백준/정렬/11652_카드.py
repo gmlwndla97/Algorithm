@@ -11,5 +11,3 @@ for i in range(0, n):
 dic=sorted(dic.items(), key=lambda x:(-x[1], x[0]))
 #print(dic)
 print(dic[0][0])
-
-
