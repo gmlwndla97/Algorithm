@@ -42,7 +42,7 @@ while(True):
         else:
             a = nx
             b = ny
-            visit[a][b] = 1
+            #visit[a][b] = 1
             dircount = 0
             continue
 
