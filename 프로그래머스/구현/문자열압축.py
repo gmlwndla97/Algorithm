@@ -12,7 +12,6 @@ for i in range(1, mid+1):
         temp=number[j:j+i]
         arr.append(temp)
     count=1
-#    print(arr)
     for j in range(0, len(arr)-1):
         prev=arr[j]
         next=arr[j+1]
