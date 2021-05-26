@@ -10,6 +10,7 @@ for _ in range(m):
     graph[a].append(b)
 
 q.append((x, 0))
+visit[x]=1
 answer=[]
 while(q):
     node, depth=q[0]
@@ -23,6 +24,7 @@ while(q):
 
 if(len(answer)==0):
     print(-1)
-    sys.exit(0)
-for i in answer:
-    print(i)
+else:
+    answer.sort()
+    for i in answer:
+        print(i)
