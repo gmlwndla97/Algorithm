@@ -1,12 +1,9 @@
 import sys
 def dfs(n, number, start, depth, visit):
     if (depth > 6):
-        ans = []
         for i in range(0, n):
             if (visit[i] == 1):
-                ans.append(number[i])
-        for i in ans:
-            print(i, end=' ')
+                print(number[i], end=' ')
         print()
         return
 
